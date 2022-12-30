@@ -1,0 +1,87 @@
+.gameZone {
+  position: absolute;
+  background-image: url(./部落.jpg);
+  left: 450px;
+  top: 120px;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden;  
+  border-radius: 30px 30px 30px 30px;
+}
+.gift {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+}
+.player {
+  position: absolute;
+  left: 450px;
+  top: 300px;
+  width: 120px;
+  height: 200px;
+}
+.start {  
+  width: 200px;
+  height: 100px;
+  left:120px;
+  top:100px;
+  position: absolute;
+  font-size: 50px;
+  background-color:plum;
+  border-radius: 50px 50px 50px 50px;
+  color:midnightblue
+ 
+}
+.score {
+  left: 650px;
+  top: 50px;
+  position: absolute;
+  font-family:"標楷體";
+  color:red;
+  font-size:50px;
+}
+.pupu {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+}
+.die {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+}
+.tt { 
+  position: absolute;
+  font-family:"標楷體";
+  color:purple;
+  font-size:40px;
+  font-weight:bold;
+}
+.yy {
+  width: 2cm;
+  height: 4cm;
+  left: 210px;
+  top: 300px;
+  position: absolute;
+}
+.gg {  
+  left: 500px;
+  top: 50px;
+  position: absolute;
+  font-family:"標楷體";
+  color:red;
+  font-size:50px;
+
+}
+.shadow{
+  width:350px;
+  height:200px;
+  border:dotted;
+  border-width: 10px 8px 10px 8px;
+  border-color:#0080FF;
+  padding:8px 12px;
+  margin:20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+  font-family: 標楷體;
+  background-color: 	#D2E9FF;
+} 
