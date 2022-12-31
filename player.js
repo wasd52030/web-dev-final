@@ -6,6 +6,8 @@ export default class Player {
             this.gameZone = $("#gameZone");
             this.gameZone.append(this.element);
         }
+        //設定角色起始位置
+        this.direction = 37 + Math.floor(Math.random()*4);
     }
 
     turn(direction) {
